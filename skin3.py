@@ -1,6 +1,6 @@
 import streamlit as st
 import cv2
-import mediapipe as mp
+# import mediapipe as mp
 import numpy as np
 from PIL import Image
 from skimage import feature
