@@ -1,6 +1,5 @@
 import streamlit as st
 import cv2
-# import mediapipe as mp
 import numpy as np
 from PIL import Image
 from skimage import feature
@@ -533,7 +532,8 @@ elif action == "Skin Analysis":
         with st.spinner("Analyzing skin..."):
 
             wrinkles, spots, texture = count_features(frame)
-            frame_landmarks = draw_landmarks_with_flicker(frame)
+            
+            frame_landmarks = frame  # fallback for demo
 
             face_bgr = cv2.cvtColor(frame_landmarks, cv2.COLOR_RGB2BGR)
 
