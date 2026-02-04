@@ -5,7 +5,6 @@ import numpy as np
 from PIL import Image
 from skimage import feature
 import time
-from deepface import DeepFace
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image as tf_image
 import os

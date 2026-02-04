@@ -1,6 +1,7 @@
-# Your Python Dependencies
-mediapipe==0.10.30
-scikit-image==0.22.0
-opencv-python==4.8.1.78
-streamlit==1.27.2
-deepface==0.0.79
+streamlit
+opencv-python-headless
+mediapipe
+numpy
+pillow
+scikit-image
+tensorflow-cpu==2.12.0
